@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-02T11:13:29 IST" name="Suite" finished-at="2020-10-02T11:14:43 IST" duration-ms="74523">
+    <groups>
+    </groups>
+    <test started-at="2020-10-02T11:13:29 IST" name="Test" finished-at="2020-10-02T11:14:43 IST" duration-ms="74523">
+      <class name="Acadamy.E2EProject.Verifytitle">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:Acadamy.E2EProject.Verifytitle@1b266842]" started-at="2020-10-02T11:13:33 IST" name="initialization" finished-at="2020-10-02T11:13:43 IST" duration-ms="9380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="homepage()[pri:0, instance:Acadamy.E2EProject.Verifytitle@1b266842]" started-at="2020-10-02T11:14:38 IST" name="homepage" finished-at="2020-10-02T11:14:38 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Acadamy.E2EProject.Verifytitle@1b266842]" started-at="2020-10-02T11:14:40 IST" name="close" finished-at="2020-10-02T11:14:41 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Acadamy.E2EProject.Verifytitle -->
+      <class name="Acadamy.E2EProject.HomepageTest">
+        <test-method is-config="true" signature="initializtion()[pri:0, instance:Acadamy.E2EProject.HomepageTest@895e367]" started-at="2020-10-02T11:13:29 IST" name="initializtion" finished-at="2020-10-02T11:13:33 IST" duration-ms="4641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializtion -->
+        <test-method signature="homepage(java.lang.String, java.lang.String)[pri:0, instance:Acadamy.E2EProject.HomepageTest@895e367]" started-at="2020-10-02T11:14:10 IST" name="homepage" data-provider="getData" finished-at="2020-10-02T11:14:23 IST" duration-ms="12946" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[norestricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method signature="homepage(java.lang.String, java.lang.String)[pri:0, instance:Acadamy.E2EProject.HomepageTest@895e367]" started-at="2020-10-02T11:14:23 IST" name="homepage" data-provider="getData" finished-at="2020-10-02T11:14:38 IST" duration-ms="15526" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[66545]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Acadamy.E2EProject.HomepageTest@895e367]" started-at="2020-10-02T11:14:39 IST" name="close" finished-at="2020-10-02T11:14:40 IST" duration-ms="1397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Acadamy.E2EProject.HomepageTest -->
+      <class name="Acadamy.E2EProject.verifynavigation">
+        <test-method is-config="true" signature="initialization()[pri:0, instance:Acadamy.E2EProject.verifynavigation@7a3793c7]" started-at="2020-10-02T11:13:43 IST" name="initialization" finished-at="2020-10-02T11:14:10 IST" duration-ms="27038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method signature="homepage()[pri:0, instance:Acadamy.E2EProject.verifynavigation@7a3793c7]" started-at="2020-10-02T11:14:38 IST" name="homepage" finished-at="2020-10-02T11:14:39 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepage -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Acadamy.E2EProject.verifynavigation@7a3793c7]" started-at="2020-10-02T11:14:41 IST" name="close" finished-at="2020-10-02T11:14:43 IST" duration-ms="2189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Acadamy.E2EProject.verifynavigation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
